@@ -16,7 +16,7 @@ class FruitsMarket extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RadioExampleApp(),
+      home: PaidPage(),
     );
   }
 }
