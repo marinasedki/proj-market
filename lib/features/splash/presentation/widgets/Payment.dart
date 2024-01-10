@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const FigmaToCodeApp());
+  runApp(const Payment());
 }
 
-class FigmaToCodeApp extends StatelessWidget {
-  const FigmaToCodeApp({super.key});
+class Payment extends StatelessWidget {
+  const Payment({super.key});
 
   @override
   Widget build(BuildContext context) {

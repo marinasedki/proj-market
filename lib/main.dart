@@ -3,7 +3,7 @@ import 'package:market/features/splash/presentation/widgets/screen12.dart';
 
 import 'features/splash/presentation/paidpage.dart';
 import 'features/splash/presentation/widgets/radio.dart';
-import 'features/splash/presentation/widgets/test.dart';
+import 'features/splash/presentation/widgets/Payment.dart';
 
 void main() {
   runApp(FruitsMarket());
@@ -16,7 +16,7 @@ class FruitsMarket extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PaidPage(),
+      home: Test(),
     );
   }
 }
