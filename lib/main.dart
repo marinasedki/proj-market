@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:market/features/splash/presentation/widgets/screen12.dart';
 
 import 'features/splash/presentation/login.dart';
+import 'features/splash/presentation/widgets/homescreen.dart';
 
 void main() {
   runApp(FruitsMarket());
@@ -14,7 +15,7 @@ class FruitsMarket extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Screen1(),
+      home: CodeApp(),
     );
   }
 }

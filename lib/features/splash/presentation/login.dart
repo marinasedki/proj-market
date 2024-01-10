@@ -24,8 +24,6 @@ class _LoginPageState extends State<LoginPage> {
   TextEditingController passwordController = TextEditingController();
 
   void _handleLogin() {
-    // In a real-world scenario, you would perform authentication here.
-    // For simplicity, let's just print the username and password for now.
     print('Username: ${usernameController.text}');
     print('Password: ${passwordController.text}');
   }
